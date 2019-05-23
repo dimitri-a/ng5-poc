@@ -6,7 +6,7 @@ const router = express.Router();
 router.get("/", (req, res) => {
   res.write(
     JSON.stringify(
-      { success: true, lists: [{ name: "Frenkie" }, { name: "Mathijs" }] },
+      { success: true, lists: [{ name: "Marco" }, { name: "Jonhy" }] },
       null,
       2
     )
